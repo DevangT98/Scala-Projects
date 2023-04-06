@@ -1,4 +1,0 @@
-[debug] [recursion-test] Classpath dependencies List()
-[debug] [recursion-test] Dependencies from configurations List(recursion)
-[debug] Bloop wrote the configuration of project 'recursion-test' to 'C:\DeV\ScalaProjects\BigDataProject0\recursion\.bloop\recursion-test.json'
-[success] Generated .bloop\recursion-test.json
