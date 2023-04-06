@@ -1,0 +1,4 @@
+[debug] [friends-test] Classpath dependencies List()
+[debug] [friends-test] Dependencies from configurations List(friends)
+[debug] Bloop wrote the configuration of project 'friends-test' to 'C:\DeV\ScalaProjects\friends\.bloop\friends-test.json'
+[success] Generated .bloop\friends-test.json

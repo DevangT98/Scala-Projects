@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"87","parents":[]},"eventTime":1678501114200,"message":"Compiling funsets","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/DeV/funsets/#funsets/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"87","parents":[]},"eventTime":1678501114211,"message":"Compiled funsets","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/DeV/funsets/#funsets/Compile"},"errors":0,"warnings":0,"time":11}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"88","parents":[]},"eventTime":1678501114217,"message":"Compiling funsets-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/DeV/funsets/#funsets/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"88","parents":[]},"eventTime":1678501114226,"message":"Compiled funsets-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/DeV/funsets/#funsets/Test"},"errors":0,"warnings":0,"time":9}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 10-Mar-2023, 9:18:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\DeV\funsets\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 10-Mar-2023, 9:18:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

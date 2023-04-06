@@ -1,0 +1,969 @@
+2023.03.10 20:25:16 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.10 20:25:17 INFO  time: initialize in 0.74s
+2023.03.10 20:25:19 WARN  Build server is not auto-connectable.
+2023.03.10 20:25:58 INFO  running 'C:\Java\jdk-11.0.18\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.8.2 -jar C:\Users\crdne\AppData\Local\Temp\metals4207007792696296221\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.10 20:26:03 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.03.10 20:26:06 INFO  [info] loading settings for project funsets-build-build from metals.sbt ...
+2023.03.10 20:26:06 INFO  [info] loading project definition from C:\DeV\funsets\project\project
+2023.03.10 20:26:10 INFO  [info] loading settings for project funsets-build from metals.sbt ...
+2023.03.10 20:26:10 INFO  [info] loading project definition from C:\DeV\funsets\project
+2023.03.10 20:26:13 INFO  [success] Generated .bloop\funsets-build.json
+2023.03.10 20:26:15 INFO  [success] Total time: 5 s, completed 10-Mar-2023, 8:26:15 PM
+2023.03.10 20:26:19 INFO  [info] loading settings for project funsets from build.sbt ...
+2023.03.10 20:26:19 INFO  [info] set current project to funsets (in build file:/C:/DeV/funsets/)
+2023.03.10 20:26:20 INFO  [success] Generated .bloop\funsets-test.json
+2023.03.10 20:26:20 INFO  [success] Generated .bloop\funsets.json
+2023.03.10 20:26:20 INFO  [success] Total time: 1 s, completed 10-Mar-2023, 8:26:20 PM
+2023.03.10 20:26:20 INFO  time: ran 'sbt bloopInstall' in 22s
+2023.03.10 20:26:20 INFO  Attempting to connect to the build server...
+2023.03.10 20:26:20 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 20:26:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 20:26:49 INFO  Attempting to connect to the build server...
+2023.03.10 20:26:49 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 20:26:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 20:26:49 INFO  time: Connected to build server in 29s
+2023.03.10 20:26:49 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.10 20:26:49 INFO  time: Imported build in 0.24s
+2023.03.10 20:27:21 INFO  time: indexed workspace in 31s
+2023.03.10 20:29:17 INFO  compiling funsets (3 scala sources)
+2023.03.10 20:29:22 INFO  time: compiled funsets in 5.43s
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.10 20:41:39 INFO  compiling funsets (1 scala source)
+2023.03.10 20:41:39 INFO  time: compiled funsets in 0.32s
+2023.03.10 20:41:52 INFO  compiling funsets (1 scala source)
+2023.03.10 20:41:52 INFO  time: compiled funsets in 0.16s
+2023.03.10 20:41:56 INFO  compiling funsets (1 scala source)
+2023.03.10 20:41:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:41:57 INFO  time: compiled funsets in 1.32s
+2023.03.10 20:42:18 INFO  compiling funsets (1 scala source)
+2023.03.10 20:42:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:42:18 INFO  time: compiled funsets in 0.98s
+2023.03.10 20:43:49 INFO  compiling funsets (1 scala source)
+2023.03.10 20:43:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:43:49 INFO  time: compiled funsets in 0.97s
+2023.03.10 20:49:18 INFO  compiling funsets (1 scala source)
+Mar 10, 2023 8:49:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:920)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:370)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:341)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:475)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:419)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1840)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.03.10 20:49:19 INFO  time: compiled funsets in 1.55s
+2023.03.10 20:50:09 INFO  compiling funsets (1 scala source)
+2023.03.10 20:50:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:50:09 INFO  time: compiled funsets in 0.91s
+2023.03.10 20:51:47 INFO  compiling funsets (1 scala source)
+2023.03.10 20:51:47 INFO  time: compiled funsets in 0.15s
+2023.03.10 20:52:11 INFO  compiling funsets (1 scala source)
+2023.03.10 20:52:12 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:52:12 INFO  time: compiled funsets in 1.12s
+2023.03.10 20:53:55 INFO  compiling funsets (1 scala source)
+2023.03.10 20:53:55 INFO  time: compiled funsets in 0.17s
+2023.03.10 20:53:56 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala
+2023.03.10 20:53:59 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala
+2023.03.10 20:54:00 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala
+2023.03.10 20:54:00 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala
+2023.03.10 20:54:01 INFO  compiling funsets (1 scala source)
+2023.03.10 20:54:01 INFO  time: compiled funsets in 0.86s
+Mar 10, 2023 8:57:06 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 699, count -1, length 710
+2023.03.10 20:57:31 INFO  compiling funsets (1 scala source)
+2023.03.10 20:57:31 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:57:31 INFO  time: compiled funsets in 0.72s
+2023.03.10 20:57:40 INFO  compiling funsets (1 scala source)
+2023.03.10 20:57:40 INFO  time: compiled funsets in 0.11s
+2023.03.10 20:57:43 INFO  compiling funsets (1 scala source)
+2023.03.10 20:57:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:57:43 INFO  time: compiled funsets in 0.79s
+2023.03.10 20:58:06 INFO  compiling funsets (1 scala source)
+2023.03.10 20:58:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:58:06 INFO  time: compiled funsets in 0.84s
+2023.03.10 20:58:14 INFO  compiling funsets (1 scala source)
+2023.03.10 20:58:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:58:14 INFO  time: compiled funsets in 0.79s
+2023.03.10 20:58:20 INFO  compiling funsets (1 scala source)
+2023.03.10 20:58:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:58:20 INFO  time: compiled funsets in 0.76s
+2023.03.10 20:58:40 INFO  compiling funsets (1 scala source)
+2023.03.10 20:58:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:58:41 INFO  time: compiled funsets in 1.18s
+Mar 10, 2023 8:58:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 10, 2023 8:58:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 10, 2023 8:58:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 10, 2023 8:58:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.10 20:59:06 INFO  compiling funsets (1 scala source)
+2023.03.10 20:59:06 INFO  time: compiled funsets in 0.11s
+2023.03.10 20:59:06 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:07 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:07 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:08 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:10 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:10 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:10 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 20:59:14 INFO  compiling funsets (1 scala source)
+2023.03.10 20:59:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 20:59:14 INFO  time: compiled funsets in 0.73s
+2023.03.10 21:00:45 INFO  compiling funsets (1 scala source)
+2023.03.10 21:00:45 INFO  time: compiled funsets in 0.78s
+2023.03.10 21:01:15 INFO  compiling funsets (1 scala source)
+2023.03.10 21:01:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:01:15 INFO  time: compiled funsets in 0.91s
+2023.03.10 21:03:42 INFO  compiling funsets (1 scala source)
+2023.03.10 21:03:42 INFO  time: compiled funsets in 0.89s
+2023.03.10 21:04:19 INFO  compiling funsets (1 scala source)
+2023.03.10 21:04:19 INFO  time: compiled funsets in 99ms
+2023.03.10 21:04:19 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 21:04:28 WARN  Could not load snapshot text for C:\DeV\funsets\src\main\scala\funsets\Main.scala
+2023.03.10 21:04:28 INFO  compiling funsets (1 scala source)
+2023.03.10 21:04:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:04:28 INFO  time: compiled funsets in 0.67s
+2023.03.10 21:05:18 INFO  compiling funsets (1 scala source)
+2023.03.10 21:05:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:05:18 INFO  time: compiled funsets in 0.8s
+2023.03.10 21:05:26 INFO  compiling funsets (1 scala source)
+2023.03.10 21:05:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:05:26 INFO  time: compiled funsets in 0.75s
+2023.03.10 21:06:31 INFO  compiling funsets (1 scala source)
+2023.03.10 21:06:31 INFO  time: compiled funsets in 0.84s
+2023.03.10 21:06:51 INFO  compiling funsets (1 scala source)
+2023.03.10 21:06:51 INFO  time: compiled funsets in 0.78s
+2023.03.10 21:07:55 INFO  compiling funsets (1 scala source)
+2023.03.10 21:07:55 INFO  time: compiled funsets in 66ms
+2023.03.10 21:08:00 INFO  compiling funsets (1 scala source)
+2023.03.10 21:08:00 INFO  time: compiled funsets in 57ms
+2023.03.10 21:08:06 INFO  compiling funsets (1 scala source)
+2023.03.10 21:08:06 INFO  time: compiled funsets in 69ms
+2023.03.10 21:08:15 INFO  compiling funsets (1 scala source)
+2023.03.10 21:08:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:08:15 INFO  time: compiled funsets in 0.73s
+2023.03.10 21:08:56 INFO  compiling funsets (1 scala source)
+2023.03.10 21:08:56 INFO  time: compiled funsets in 0.84s
+2023.03.10 21:14:53 INFO  compiling funsets (1 scala source)
+2023.03.10 21:14:53 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:53 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:53 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:53 INFO  time: compiled funsets in 0.1s
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:55 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:57 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:58 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:58 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+2023.03.10 21:14:58 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:57: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                        ^
+2023.03.10 21:14:58 INFO  file:///C:/DeV/funsets/src/main/scala/funsets/FunSets.scala:82:60: stale bloop error: illegal character '\u00a0'
+  def map(s: IntSet, f: Int => Int): IntSet =   (x: Int) => s(f(x))
+                                                           ^
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-4-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.10 21:14:58 INFO  compiling funsets (1 scala source)
+2023.03.10 21:15:00 INFO  time: compiled funsets in 1.36s
+2023.03.10 21:16:36 INFO  compiling funsets (1 scala source)
+2023.03.10 21:16:37 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:16:37 INFO  time: compiled funsets in 1.2s
+2023.03.10 21:16:48 INFO  compiling funsets (1 scala source)
+2023.03.10 21:16:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.03.10 21:16:49 INFO  time: compiled funsets in 1.04s
+2023.03.10 21:18:36 INFO  Shutting down server
+2023.03.10 21:18:36 INFO  shutting down Metals
+2023.03.10 21:18:36 INFO  Shut down connection with build server.
+2023.03.10 21:18:36 INFO  Shut down connection with build server.
+2023.03.10 21:18:36 INFO  Exiting server
+2023.03.10 23:37:07 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.10 23:37:08 INFO  time: initialize in 1.13s
+2023.03.10 23:37:10 INFO  Attempting to connect to the build server...
+2023.03.10 23:37:10 INFO  skipping build import with status 'Installed'
+2023.03.10 23:37:10 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:37:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:37:10 INFO  Attempting to connect to the build server...
+2023.03.10 23:37:10 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:37:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:37:10 INFO  time: Connected to build server in 0.37s
+2023.03.10 23:37:10 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.10 23:37:14 INFO  no build target found for C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.10 23:37:14 INFO  time: code lens generation in 4.36s
+2023.03.10 23:37:15 INFO  time: Imported build in 0.17s
+Mar 10, 2023 11:37:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:924)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:340)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:341)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:475)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:419)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1840)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Mar 10, 2023 11:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:924)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:340)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:341)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:475)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:419)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1840)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.03.10 23:37:19 INFO  compiling funsets-test (1 scala source)
+2023.03.10 23:37:20 INFO  time: indexed workspace in 5.21s
+2023.03.10 23:37:22 INFO  time: compiled funsets-test in 2.8s
+2023.03.10 23:37:29 INFO  running 'C:\Java\jdk-11.0.18\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\crdne\AppData\Local\Temp\metals17416660100312302791\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.10 23:37:35 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.03.10 23:37:36 INFO  [info] loading settings for project funsets-build-build from metals.sbt ...
+2023.03.10 23:37:36 INFO  [info] loading project definition from C:\DeV\funsets\project\project
+2023.03.10 23:37:38 INFO  [info] loading settings for project funsets-build from metals.sbt ...
+2023.03.10 23:37:38 INFO  [info] loading project definition from C:\DeV\funsets\project
+2023.03.10 23:37:40 INFO  [success] Generated .bloop\funsets-build.json
+2023.03.10 23:37:40 INFO  [success] Total time: 3 s, completed 10-Mar-2023, 11:37:41 PM
+2023.03.10 23:37:40 INFO  [info] loading settings for project funsets from build.sbt ...
+2023.03.10 23:37:40 INFO  [info] set current project to funsets (in build file:/C:/DeV/funsets/)
+2023.03.10 23:37:40 INFO  [success] Generated .bloop\funsets.json
+2023.03.10 23:37:40 INFO  [success] Generated .bloop\funsets-test.json
+2023.03.10 23:37:40 INFO  [success] Total time: 0 s, completed 10-Mar-2023, 11:37:41 PM
+2023.03.10 23:37:41 INFO  time: ran 'sbt bloopInstall' in 12s
+2023.03.10 23:37:41 INFO  Disconnecting from Bloop session...
+2023.03.10 23:37:41 INFO  Shut down connection with build server.
+2023.03.10 23:37:41 INFO  Shut down connection with build server.
+2023.03.10 23:37:41 INFO  Attempting to connect to the build server...
+2023.03.10 23:37:41 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:37:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:37:41 INFO  Attempting to connect to the build server...
+2023.03.10 23:37:41 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:37:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:37:41 INFO  time: Connected to build server in 95ms
+2023.03.10 23:37:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.10 23:37:43 INFO  time: indexed workspace in 1.9s
+2023.03.10 23:37:54 INFO  Configured debugger context in 6 seconds
+2023.03.10 23:37:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.10 23:37:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.10 23:37:55 INFO  Starting debug proxy for [funsets.FunSetsSuite]
+2023.03.10 23:37:56 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61357 .
+2023.03.10 23:37:56 INFO  Attaching to debuggee VM succeeded.
+2023.03.10 23:37:57 INFO  Canceling debug proxy for [funsets.FunSetsSuite]
+2023.03.10 23:37:57 INFO  Closing debug server tcp://0.0.0.0:61336
+Mar 10, 2023 11:42:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 131
+2023.03.10 23:42:17 INFO  compiling funsets-test (1 scala source)
+2023.03.10 23:42:18 INFO  Deduplicating compilation of funsets-test from bsp client 'Metals 0.11.11' (since 4m 36.752s)
+2023.03.10 23:42:18 INFO  compiling funsets-test (1 scala source)
+2023.03.10 23:42:19 INFO  time: compiled funsets-test in 1.14s
+2023.03.10 23:42:19 INFO  Deduplicating compilation of funsets from bsp client 'Metals 0.11.11' (since 4m 38.01s)
+2023.03.10 23:42:19 INFO  Deduplicating compilation of funsets-test from bsp client 'Metals 0.11.11' (since 4m 38.06s)
+2023.03.10 23:42:29 INFO  Configured debugger context in 9 seconds
+2023.03.10 23:42:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.10 23:42:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.10 23:42:29 INFO  Starting debug proxy for [funsets.FunSetsSuite]
+2023.03.10 23:42:29 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61576 .
+2023.03.10 23:42:29 INFO  Attaching to debuggee VM succeeded.
+2023.03.10 23:42:31 INFO  Canceling debug proxy for [funsets.FunSetsSuite]
+2023.03.10 23:42:31 INFO  Closing debug server tcp://0.0.0.0:61555
+2023.03.10 23:44:36 INFO  Shutting down server
+2023.03.10 23:44:36 INFO  shutting down Metals
+2023.03.10 23:44:36 INFO  Shut down connection with build server.
+2023.03.10 23:44:36 INFO  Shut down connection with build server.
+2023.03.10 23:44:36 INFO  Exiting server
+2023.03.10 23:46:10 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.10 23:46:11 INFO  time: initialize in 0.75s
+2023.03.10 23:46:13 INFO  Attempting to connect to the build server...
+2023.03.10 23:46:13 INFO  skipping build import with status 'Installed'
+2023.03.10 23:46:13 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:46:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:46:13 INFO  Attempting to connect to the build server...
+2023.03.10 23:46:13 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.10 23:46:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.10 23:46:13 INFO  time: Connected to build server in 0.31s
+2023.03.10 23:46:13 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.10 23:46:17 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.10 23:46:17 INFO  time: code lens generation in 4.29s
+2023.03.10 23:46:18 INFO  time: Imported build in 0.11s
+2023.03.10 23:46:22 INFO  time: indexed workspace in 4.32s
+2023.03.10 23:50:39 INFO  Shutting down server
+2023.03.10 23:50:39 INFO  shutting down Metals
+2023.03.10 23:50:39 INFO  Shut down connection with build server.
+2023.03.10 23:50:39 INFO  Shut down connection with build server.
+2023.03.10 23:50:39 INFO  Exiting server
+2023.03.11 16:17:40 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.11 16:17:41 INFO  time: initialize in 0.74s
+2023.03.11 16:17:43 INFO  Attempting to connect to the build server...
+2023.03.11 16:17:43 WARN  no build target for: C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala
+2023.03.11 16:17:43 INFO  skipping build import with status 'Installed'
+Mar 11, 2023 4:17:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1992)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.03.11 16:17:43 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.11 16:17:47 INFO  no build target found for C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.11 16:17:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.11 16:17:48 INFO  Attempting to connect to the build server...
+2023.03.11 16:17:48 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.11 16:17:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.11 16:17:48 INFO  time: Connected to build server in 5.68s
+2023.03.11 16:17:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.11 16:17:49 INFO  time: Imported build in 0.19s
+2023.03.11 16:17:49 INFO  running 'C:\Java\jdk-11.0.18\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\crdne\AppData\Local\Temp\metals457092800076959893\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.11 16:17:49 INFO  time: code lens generation in 6.72s
+2023.03.11 16:17:52 INFO  no build target found for C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.11 16:17:55 INFO  time: indexed workspace in 6.08s
+2023.03.11 16:17:55 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.03.11 16:17:57 INFO  [info] loading settings for project funsets-build-build from metals.sbt ...
+2023.03.11 16:17:57 INFO  [info] loading project definition from C:\DeV\funsets\project\project
+2023.03.11 16:17:59 INFO  [info] loading settings for project funsets-build from metals.sbt ...
+2023.03.11 16:17:59 INFO  [info] loading project definition from C:\DeV\funsets\project
+2023.03.11 16:18:02 INFO  [success] Generated .bloop\funsets-build.json
+2023.03.11 16:18:02 INFO  [success] Total time: 3 s, completed 11-Mar-2023, 4:18:03 PM
+2023.03.11 16:18:02 INFO  [info] loading settings for project funsets from build.sbt ...
+2023.03.11 16:18:02 INFO  [info] set current project to funsets (in build file:/C:/DeV/funsets/)
+2023.03.11 16:18:04 INFO  [success] Generated .bloop\funsets.json
+2023.03.11 16:18:04 INFO  [success] Generated .bloop\funsets-test.json
+2023.03.11 16:18:04 INFO  [success] Total time: 0 s, completed 11-Mar-2023, 4:18:04 PM
+2023.03.11 16:18:04 INFO  time: ran 'sbt bloopInstall' in 14s
+2023.03.11 16:18:04 INFO  Disconnecting from Bloop session...
+2023.03.11 16:18:04 INFO  Shut down connection with build server.
+2023.03.11 16:18:04 INFO  Shut down connection with build server.
+2023.03.11 16:18:04 INFO  Attempting to connect to the build server...
+2023.03.11 16:18:04 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.11 16:18:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.11 16:18:04 INFO  Attempting to connect to the build server...
+2023.03.11 16:18:04 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.11 16:18:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.11 16:18:04 INFO  time: Connected to build server in 0.16s
+2023.03.11 16:18:04 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.11 16:18:06 INFO  time: indexed workspace in 2.29s
+2023.03.11 16:18:19 INFO  Configured debugger context in 5 seconds
+2023.03.11 16:18:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.11 16:18:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.11 16:18:19 INFO  Starting debug proxy for [funsets.FunSetsSuite]
+2023.03.11 16:18:19 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56630 .
+2023.03.11 16:18:19 INFO  Attaching to debuggee VM succeeded.
+2023.03.11 16:18:21 INFO  Canceling debug proxy for [funsets.FunSetsSuite]
+2023.03.11 16:18:21 INFO  Closing debug server tcp://0.0.0.0:56617
+2023.03.11 16:23:02 INFO  Shutting down server
+2023.03.11 16:23:02 INFO  shutting down Metals
+2023.03.11 16:23:02 INFO  Shut down connection with build server.
+2023.03.11 16:23:02 INFO  Shut down connection with build server.
+2023.03.11 16:23:02 INFO  Exiting server
+2023.03.20 18:19:17 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.20 18:19:19 INFO  time: initialize in 1.73s
+2023.03.20 18:19:22 INFO  Attempting to connect to the build server...
+2023.03.20 18:19:22 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.20 18:19:23 INFO  skipping build import with status 'Installed'
+2023.03.20 18:19:39 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.20 18:19:58 ERROR Starting the bsp launcher for bloop...
+2023.03.20 18:19:58 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 37964'...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR Waiting for the bsp connection to come up...
+2023.03.20 18:19:58 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR > Attempting a connection to the server...
+2023.03.20 18:19:58 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.03.20 18:19:58 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.03.20 18:19:58 WARN  no build target for: C:\DeV\funsets\src\main\scala\funsets\FunSets.scala
+2023.03.20 18:19:59 INFO  time: code lens generation in 32s
+2023.03.20 18:19:59 INFO  time: code lens generation in 34s
+2023.03.20 18:30:19 WARN  no build target for: C:\DeV\funsets\src\test\scala\funsets\FunSetsSuite.scala
+2023.03.21 02:15:29 INFO  Shutting down server
+2023.03.21 02:15:29 INFO  shutting down Metals
+2023.03.21 02:15:29 INFO  Exiting server
+2023.03.27 00:41:48 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.27 00:41:49 INFO  time: initialize in 0.76s
+2023.03.27 00:41:51 INFO  Attempting to connect to the build server...
+2023.03.27 00:41:51 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 00:41:51 INFO  skipping build import with status 'Installed'
+2023.03.27 00:41:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 00:41:52 INFO  Attempting to connect to the build server...
+2023.03.27 00:41:52 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 00:41:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 00:41:52 INFO  time: Connected to build server in 1.37s
+2023.03.27 00:41:52 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.27 00:41:56 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.27 00:41:56 INFO  time: code lens generation in 5.46s
+2023.03.27 00:41:56 INFO  time: Imported build in 0.17s
+2023.03.27 00:42:00 INFO  time: indexed workspace in 3.98s
+Mar 27, 2023 1:26:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Mar 27, 2023 1:26:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.27 01:26:15 INFO  compiling funsets-test (1 scala source)
+2023.03.27 01:26:20 INFO  time: compiled funsets-test in 4.65s
+2023.03.27 01:26:27 INFO  Configured debugger context in 5 seconds
+2023.03.27 01:26:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.27 01:26:27 INFO  compiling funsets-test (1 scala source)
+2023.03.27 01:26:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.27 01:26:28 INFO  Starting debug proxy for [funsets.FunSetsSuite]
+2023.03.27 01:26:32 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54371 .
+2023.03.27 01:26:32 INFO  Attaching to debuggee VM succeeded.
+2023.03.27 01:26:32 INFO  time: compiled funsets-test in 5.18s
+2023.03.27 01:26:33 INFO  Canceling debug proxy for [funsets.FunSetsSuite]
+2023.03.27 01:26:33 INFO  Closing debug server tcp://0.0.0.0:54362
+2023.03.27 01:26:35 INFO  Configured debugger context in 2 seconds
+2023.03.27 01:26:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.27 01:26:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.27 01:26:35 INFO  Starting debug proxy for [funsets.FunSetsSuite(singletonSet(1) contains 1)]
+2023.03.27 01:26:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54387 .
+2023.03.27 01:26:35 INFO  Attaching to debuggee VM succeeded.
+2023.03.27 01:26:36 INFO  Canceling debug proxy for [funsets.FunSetsSuite(singletonSet(1) contains 1)]
+2023.03.27 01:26:36 INFO  Closing debug server tcp://0.0.0.0:54381
+2023.03.27 01:26:44 INFO  compiling funsets-test (1 scala source)
+2023.03.27 01:26:46 INFO  time: compiled funsets-test in 1.44s
+2023.03.27 01:26:46 INFO  Deduplicating compilation of funsets from bsp client 'Metals 0.11.11' (since 44m 53.865s)
+2023.03.27 01:26:46 INFO  Deduplicating compilation of funsets-test from bsp client 'Metals 0.11.11' (since 44m 53.895s)
+2023.03.27 01:26:48 INFO  Configured debugger context in 1 second
+2023.03.27 01:26:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-server.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.27 01:26:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\dap-client.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.27 01:26:48 INFO  Starting debug proxy for [funsets.FunSetsSuite()]
+2023.03.27 01:26:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54408 .
+2023.03.27 01:26:48 INFO  Attaching to debuggee VM succeeded.
+2023.03.27 01:26:49 INFO  Canceling debug proxy for [funsets.FunSetsSuite()]
+2023.03.27 01:26:49 INFO  Closing debug server tcp://0.0.0.0:54402
+2023.03.27 01:26:55 INFO  compiling funsets-test (1 scala source)
+2023.03.27 01:26:56 INFO  time: compiled funsets-test in 1.36s
+2023.03.27 01:34:37 INFO  Shutting down server
+2023.03.27 01:34:37 INFO  shutting down Metals
+2023.03.27 01:34:37 INFO  Shut down connection with build server.
+2023.03.27 01:34:37 INFO  Shut down connection with build server.
+2023.03.27 01:34:37 INFO  Exiting server
+2023.03.27 13:19:04 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.27 13:19:05 INFO  time: initialize in 1.1s
+2023.03.27 13:19:07 INFO  Attempting to connect to the build server...
+2023.03.27 13:19:07 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 13:19:07 INFO  skipping build import with status 'Installed'
+2023.03.27 13:19:09 INFO  Shutting down server
+2023.03.27 13:19:09 INFO  shutting down Metals
+2023.03.27 15:55:38 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.27 15:55:39 INFO  time: initialize in 0.75s
+2023.03.27 15:55:41 INFO  Attempting to connect to the build server...
+2023.03.27 15:55:41 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 15:55:41 INFO  skipping build import with status 'Installed'
+2023.03.27 15:55:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 15:55:41 INFO  Attempting to connect to the build server...
+2023.03.27 15:55:41 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 15:55:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 15:55:41 INFO  time: Connected to build server in 0.38s
+2023.03.27 15:55:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.27 15:55:44 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.27 15:55:44 INFO  time: code lens generation in 3.37s
+2023.03.27 15:55:45 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.27 15:55:47 INFO  time: code lens generation in 4.64s
+2023.03.27 15:55:51 INFO  time: indexed workspace in 6.64s
+2023.03.27 15:56:01 INFO  Shutting down server
+2023.03.27 15:56:01 INFO  shutting down Metals
+2023.03.27 15:56:02 INFO  Shut down connection with build server.
+2023.03.27 15:56:02 INFO  Shut down connection with build server.
+2023.03.27 15:56:01 INFO  Exiting server
+2023.03.27 19:53:28 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\funsets' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.27 19:53:29 INFO  time: initialize in 0.59s
+2023.03.27 19:53:32 INFO  Attempting to connect to the build server...
+2023.03.27 19:53:32 INFO  skipping build import with status 'Installed'
+2023.03.27 19:53:32 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 19:53:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 19:53:32 INFO  Attempting to connect to the build server...
+2023.03.27 19:53:32 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.03.27 19:53:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\funsets\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.27 19:53:32 INFO  time: Connected to build server in 0.54s
+2023.03.27 19:53:32 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.27 19:53:37 INFO  no build target found for C:\DeV\funsets\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.27 19:53:37 INFO  time: code lens generation in 5.12s
+2023.03.27 19:53:37 INFO  time: Imported build in 0.12s
+2023.03.27 19:53:41 INFO  time: indexed workspace in 3.73s
+2023.03.27 19:53:54 INFO  Shutting down server
+2023.03.27 19:53:54 INFO  shutting down Metals
+2023.03.27 19:53:54 INFO  Shut down connection with build server.
+2023.03.27 19:53:54 INFO  Shut down connection with build server.
+2023.03.27 19:53:54 INFO  Exiting server

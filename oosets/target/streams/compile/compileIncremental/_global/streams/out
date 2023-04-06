@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 20 products, 4 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/oosets/TweetReader.scala, ${BASE}/src/main/scala/oosets/TweetScala1.scala, ${BASE}/src/main/scala/common/package.scala, ${BASE}/src/main/scala/oosets/TweetData.scala, ${BASE}/src/main/scala/oosets/TweetSet.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/oosets/TweetScala1.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/oosets/TweetSet.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/oosets/TweetScala1.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/oosets/TweetSet.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(objsets.NonEmpty, objsets.Cons, objsets.GoogleVsApple, objsets.Empty, objsets.TweetList, objsets.TweetSet, objsets.Tweet, objsets.Main, objsets.Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(objsets.NonEmpty, objsets.Cons, objsets.GoogleVsApple, objsets.Empty, objsets.TweetList, objsets.TweetSet, objsets.Tweet, objsets.Main, objsets.Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/oosets/TweetScala1.scala, ${BASE}/src/main/scala/oosets/TweetSet.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: objsets.NonEmpty, objsets.Cons, objsets.GoogleVsApple, objsets.Empty, objsets.TweetList, objsets.TweetSet, objsets.Tweet, objsets.Main, objsets.Nil[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding objsets.Nil by objsets.TweetList[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\DeV\oosets\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.8.0:compile for Scala 2.13.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5de3a5b7 for Scala compiler version 2.13.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\DeV\oosets\target\scala-2.13\classes;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.10.0-RC7\play-json_2.13-2.10.0-RC7.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.10.0-RC7\play-functional_2.13-2.10.0-RC7.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.11.4\jackson-core-2.11.4.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.11.4\jackson-annotations-2.11.4.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.4\jackson-datatype-jdk8-2.11.4.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.4\jackson-datatype-jsr310-2.11.4.jar;C:\Users\crdne\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.11.4\jackson-databind-2.11.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m

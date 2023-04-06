@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\oosets\src\main\scala\oosets\TweetScala1.scala:7:8: not found: object TweetReader[0m
+[0m[[0m[31merror[0m] [0m[0mimport TweetReader._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\oosets\src\main\scala\oosets\TweetScala1.scala:233:19: not found: value TweetReader[0m
+[0m[[0m[31merror[0m] [0m[0m  val allTweets = TweetReader.allTweets[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

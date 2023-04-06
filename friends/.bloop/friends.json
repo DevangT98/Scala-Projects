@@ -1,0 +1,2118 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "friends",
+        "directory": "C:\\DeV\\ScalaProjects\\friends",
+        "workspaceDir": "C:\\DeV\\ScalaProjects\\friends",
+        "sources": [
+            "C:\\DeV\\ScalaProjects\\friends\\src\\main\\scala",
+            "C:\\DeV\\ScalaProjects\\friends\\src\\main\\scala-2.13",
+            "C:\\DeV\\ScalaProjects\\friends\\src\\main\\scala-2",
+            "C:\\DeV\\ScalaProjects\\friends\\src\\main\\java",
+            "C:\\DeV\\ScalaProjects\\friends\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-core_2.13\\3.3.2\\spark-core_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parallel-collections_2.13\\1.0.3\\scala-parallel-collections_2.13-1.0.3.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro\\1.11.0\\avro-1.11.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-mapred\\1.11.0\\avro-mapred-1.11.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill_2.13\\0.10.0\\chill_2.13-0.10.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill-java\\0.10.0\\chill-java-0.10.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\xbean\\xbean-asm9-shaded\\4.20\\xbean-asm9-shaded-4.20.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\hadoop\\hadoop-client-api\\3.3.2\\hadoop-client-api-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\hadoop\\hadoop-client-runtime\\3.3.2\\hadoop-client-runtime-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-launcher_2.13\\3.3.2\\spark-launcher_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-kvstore_2.13\\3.3.2\\spark-kvstore_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-common_2.13\\3.3.2\\spark-network-common_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-shuffle_2.13\\3.3.2\\spark-network-shuffle_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-unsafe_2.13\\3.3.2\\spark-unsafe_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\activation\\activation\\1.1.1\\activation-1.1.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-recipes\\2.13.0\\curator-recipes-2.13.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper\\3.6.2\\zookeeper-3.6.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\servlet\\jakarta.servlet-api\\4.0.3\\jakarta.servlet-api-4.0.3.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.15\\commons-codec-1.15.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.10.0\\commons-text-1.10.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.11.0\\commons-io-2.11.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.35\\slf4j-api-1.7.35.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jul-to-slf4j\\1.7.32\\jul-to-slf4j-1.7.32.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jcl-over-slf4j\\1.7.32\\jcl-over-slf4j-1.7.32.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-slf4j-impl\\2.17.2\\log4j-slf4j-impl-2.17.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-api\\2.17.2\\log4j-api-2.17.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-core\\2.17.2\\log4j-core-2.17.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-1.2-api\\2.17.2\\log4j-1.2-api-2.17.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\ning\\compress-lzf\\1.1\\compress-lzf-1.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xerial\\snappy\\snappy-java\\1.1.8.4\\snappy-java-1.1.8.4.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\luben\\zstd-jni\\1.5.2-1\\zstd-jni-1.5.2-1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\RoaringBitmap\\0.9.25\\RoaringBitmap-0.9.25.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\1.2.0\\scala-xml_2.13-1.2.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\3.7.0-M11\\json4s-jackson_2.13-3.7.0-M11.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-client\\2.36\\jersey-client-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-common\\2.36\\jersey-common-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-server\\2.36\\jersey-server-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet\\2.36\\jersey-container-servlet-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet-core\\2.36\\jersey-container-servlet-core-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\inject\\jersey-hk2\\2.36\\jersey-hk2-2.36.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-all\\4.1.74.Final\\netty-all-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.9.6\\stream-2.9.6.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-core\\4.2.7\\metrics-core-4.2.7.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jvm\\4.2.7\\metrics-jvm-4.2.7.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-json\\4.2.7\\metrics-json-4.2.7.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-graphite\\4.2.7\\metrics-graphite-4.2.7.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jmx\\4.2.7\\metrics-jmx-4.2.7.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.13.4.2\\jackson-databind-2.13.4.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.13.4\\jackson-module-scala_2.13-2.13.4.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ivy\\ivy\\2.5.1\\ivy-2.5.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\oro\\oro\\2.0.8\\oro-2.0.8.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\razorvine\\pickle\\1.2\\pickle-1.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\py4j\\py4j\\0.10.9.5\\py4j-0.10.9.5.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-tags_2.13\\3.3.2\\spark-tags_2.13-3.3.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-crypto\\1.1.0\\commons-crypto-1.1.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\spark-project\\spark\\unused\\1.0.0\\unused-1.0.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.13.4\\jackson-core-2.13.4.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.21\\commons-compress-1.21.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-ipc\\1.11.0\\avro-ipc-1.11.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\kryo-shaded\\4.0.2\\kryo-shaded-4.0.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\leveldbjni\\leveldbjni-all\\1.8\\leveldbjni-all-1.8.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.13.4\\jackson-annotations-2.13.4.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\rocksdb\\rocksdbjni\\6.20.3\\rocksdbjni-6.20.3.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\crypto\\tink\\tink\\1.6.1\\tink-1.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-framework\\2.13.0\\curator-framework-2.13.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-lang\\commons-lang\\2.6\\commons-lang-2.6.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper-jute\\3.6.2\\zookeeper-jute-3.6.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\yetus\\audience-annotations\\0.5.0\\audience-annotations-0.5.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\shims\\0.9.25\\shims-0.9.25.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.7.0-M11\\json4s-core_2.13-3.7.0-M11.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\ws\\rs\\jakarta.ws.rs-api\\2.1.6\\jakarta.ws.rs-api-2.1.6.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\jakarta.inject\\2.6.1\\jakarta.inject-2.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\annotation\\jakarta.annotation-api\\1.3.5\\jakarta.annotation-api-1.3.5.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\osgi-resource-locator\\1.0.3\\osgi-resource-locator-1.0.3.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\validation\\jakarta.validation-api\\2.0.2\\jakarta.validation-api-2.0.2.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-locator\\2.6.1\\hk2-locator-2.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\javassist\\javassist\\3.25.0-GA\\javassist-3.25.0-GA.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.74.Final\\netty-buffer-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.74.Final\\netty-codec-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.74.Final\\netty-common-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.74.Final\\netty-handler-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.48.Final\\netty-tcnative-classes-2.0.48.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.74.Final\\netty-resolver-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.74.Final\\netty-transport-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.74.Final\\netty-transport-classes-epoll-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.74.Final\\netty-transport-native-unix-common-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-kqueue\\4.1.74.Final\\netty-transport-classes-kqueue-4.1.74.Final.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final-linux-x86_64.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final-linux-aarch_64.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-kqueue\\4.1.74.Final\\netty-transport-native-kqueue-4.1.74.Final-osx-x86_64.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-kqueue\\4.1.74.Final\\netty-transport-native-kqueue-4.1.74.Final-osx-aarch_64.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tukaani\\xz\\1.9\\xz-1.9.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\minlog\\1.3.0\\minlog-1.3.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\objenesis\\objenesis\\2.5.1\\objenesis-2.5.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\protobuf\\protobuf-java\\3.14.0\\protobuf-java-3.14.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.6\\gson-2.8.6.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-client\\2.13.0\\curator-client-2.13.0.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.7.0-M11\\json4s-ast_2.13-3.7.0-M11.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.7.0-M11\\json4s-scalap_2.13-3.7.0-M11.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\aopalliance-repackaged\\2.6.1\\aopalliance-repackaged-2.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-api\\2.6.1\\hk2-api-2.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-utils\\2.6.1\\hk2-utils-2.6.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\guava\\16.0.1\\guava-16.0.1.jar",
+            "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final.jar"
+        ],
+        "out": "C:\\DeV\\ScalaProjects\\friends\\.bloop\\friends",
+        "classesDir": "C:\\DeV\\ScalaProjects\\friends\\.bloop\\friends\\scala-2.13\\classes",
+        "resources": [
+            "C:\\DeV\\ScalaProjects\\friends\\src\\main\\resources",
+            "C:\\DeV\\ScalaProjects\\friends\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
+                "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.8\\scala-compiler-2.13.8.jar",
+                "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8.jar",
+                "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.21.0\\jline-3.21.0.jar",
+                "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.9.0\\jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Java\\jdk-11.0.18",
+                "options": [
+                    "-Duser.dir=C:\\DeV\\ScalaProjects\\friends"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-core_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-core_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-core_2.13\\3.3.2\\spark-core_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-core_2.13\\3.3.2\\spark-core_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parallel-collections_2.13",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parallel-collections_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parallel-collections_2.13\\1.0.3\\scala-parallel-collections_2.13-1.0.3.jar"
+                        },
+                        {
+                            "name": "scala-parallel-collections_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parallel-collections_2.13\\1.0.3\\scala-parallel-collections_2.13-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro",
+                    "version": "1.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "avro",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro\\1.11.0\\avro-1.11.0.jar"
+                        },
+                        {
+                            "name": "avro",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro\\1.11.0\\avro-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro-mapred",
+                    "version": "1.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "avro-mapred",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-mapred\\1.11.0\\avro-mapred-1.11.0.jar"
+                        },
+                        {
+                            "name": "avro-mapred",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-mapred\\1.11.0\\avro-mapred-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "chill_2.13",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chill_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill_2.13\\0.10.0\\chill_2.13-0.10.0.jar"
+                        },
+                        {
+                            "name": "chill_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill_2.13\\0.10.0\\chill_2.13-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.twitter",
+                    "name": "chill-java",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chill-java",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill-java\\0.10.0\\chill-java-0.10.0.jar"
+                        },
+                        {
+                            "name": "chill-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\twitter\\chill-java\\0.10.0\\chill-java-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xbean",
+                    "name": "xbean-asm9-shaded",
+                    "version": "4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xbean-asm9-shaded",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\xbean\\xbean-asm9-shaded\\4.20\\xbean-asm9-shaded-4.20.jar"
+                        },
+                        {
+                            "name": "xbean-asm9-shaded",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\xbean\\xbean-asm9-shaded\\4.20\\xbean-asm9-shaded-4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-client-api",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-client-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\hadoop\\hadoop-client-api\\3.3.2\\hadoop-client-api-3.3.2.jar"
+                        },
+                        {
+                            "name": "hadoop-client-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\hadoop\\hadoop-client-api\\3.3.2\\hadoop-client-api-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-client-runtime",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-client-runtime",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\hadoop\\hadoop-client-runtime\\3.3.2\\hadoop-client-runtime-3.3.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-launcher_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-launcher_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-launcher_2.13\\3.3.2\\spark-launcher_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-launcher_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-launcher_2.13\\3.3.2\\spark-launcher_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-kvstore_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-kvstore_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-kvstore_2.13\\3.3.2\\spark-kvstore_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-kvstore_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-kvstore_2.13\\3.3.2\\spark-kvstore_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-network-common_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-network-common_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-common_2.13\\3.3.2\\spark-network-common_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-network-common_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-common_2.13\\3.3.2\\spark-network-common_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-network-shuffle_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-network-shuffle_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-shuffle_2.13\\3.3.2\\spark-network-shuffle_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-network-shuffle_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-network-shuffle_2.13\\3.3.2\\spark-network-shuffle_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-unsafe_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-unsafe_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-unsafe_2.13\\3.3.2\\spark-unsafe_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-unsafe_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-unsafe_2.13\\3.3.2\\spark-unsafe_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.activation",
+                    "name": "activation",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "activation",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\activation\\activation\\1.1.1\\activation-1.1.1.jar"
+                        },
+                        {
+                            "name": "activation",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\activation\\activation\\1.1.1\\activation-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-recipes",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-recipes",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-recipes\\2.13.0\\curator-recipes-2.13.0.jar"
+                        },
+                        {
+                            "name": "curator-recipes",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-recipes\\2.13.0\\curator-recipes-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.zookeeper",
+                    "name": "zookeeper",
+                    "version": "3.6.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zookeeper",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper\\3.6.2\\zookeeper-3.6.2.jar"
+                        },
+                        {
+                            "name": "zookeeper",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper\\3.6.2\\zookeeper-3.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.servlet",
+                    "name": "jakarta.servlet-api",
+                    "version": "4.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.servlet-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\servlet\\jakarta.servlet-api\\4.0.3\\jakarta.servlet-api-4.0.3.jar"
+                        },
+                        {
+                            "name": "jakarta.servlet-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\servlet\\jakarta.servlet-api\\4.0.3\\jakarta.servlet-api-4.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.15\\commons-codec-1.15.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.15\\commons-codec-1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.12.0\\commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-math3\\3.6.1\\commons-math3-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.10.0\\commons-text-1.10.0.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-text\\1.10.0\\commons-text-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.11.0\\commons-io-2.11.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.11.0\\commons-io-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-collections4",
+                    "version": "4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections4",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4.jar"
+                        },
+                        {
+                            "name": "commons-collections4",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-collections4\\4.4\\commons-collections4-4.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.35",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.35\\slf4j-api-1.7.35.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.35\\slf4j-api-1.7.35-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "1.7.32",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jul-to-slf4j\\1.7.32\\jul-to-slf4j-1.7.32.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jul-to-slf4j\\1.7.32\\jul-to-slf4j-1.7.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.32",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jcl-over-slf4j\\1.7.32\\jcl-over-slf4j-1.7.32.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\jcl-over-slf4j\\1.7.32\\jcl-over-slf4j-1.7.32-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-slf4j-impl",
+                    "version": "2.17.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4j-slf4j-impl",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-slf4j-impl\\2.17.2\\log4j-slf4j-impl-2.17.2.jar"
+                        },
+                        {
+                            "name": "log4j-slf4j-impl",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-slf4j-impl\\2.17.2\\log4j-slf4j-impl-2.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.17.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-api\\2.17.2\\log4j-api-2.17.2.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-api\\2.17.2\\log4j-api-2.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-core",
+                    "version": "2.17.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4j-core",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-core\\2.17.2\\log4j-core-2.17.2.jar"
+                        },
+                        {
+                            "name": "log4j-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-core\\2.17.2\\log4j-core-2.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-1.2-api",
+                    "version": "2.17.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4j-1.2-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-1.2-api\\2.17.2\\log4j-1.2-api-2.17.2.jar"
+                        },
+                        {
+                            "name": "log4j-1.2-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-1.2-api\\2.17.2\\log4j-1.2-api-2.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.ning",
+                    "name": "compress-lzf",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "compress-lzf",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\ning\\compress-lzf\\1.1\\compress-lzf-1.1.jar"
+                        },
+                        {
+                            "name": "compress-lzf",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\ning\\compress-lzf\\1.1\\compress-lzf-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.8.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xerial\\snappy\\snappy-java\\1.1.8.4\\snappy-java-1.1.8.4.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xerial\\snappy\\snappy-java\\1.1.8.4\\snappy-java-1.1.8.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.5.2-1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\luben\\zstd-jni\\1.5.2-1\\zstd-jni-1.5.2-1.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\luben\\zstd-jni\\1.5.2-1\\zstd-jni-1.5.2-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.roaringbitmap",
+                    "name": "RoaringBitmap",
+                    "version": "0.9.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "RoaringBitmap",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\RoaringBitmap\\0.9.25\\RoaringBitmap-0.9.25.jar"
+                        },
+                        {
+                            "name": "RoaringBitmap",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\RoaringBitmap\\0.9.25\\RoaringBitmap-0.9.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\1.2.0\\scala-xml_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\1.2.0\\scala-xml_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-jackson_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-jackson_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\3.7.0-M11\\json4s-jackson_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-jackson_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\3.7.0-M11\\json4s-jackson_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-client",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-client",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-client\\2.36\\jersey-client-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-client\\2.36\\jersey-client-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-common",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-common",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-common\\2.36\\jersey-common-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-common\\2.36\\jersey-common-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-server",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-server",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-server\\2.36\\jersey-server-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-server",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\core\\jersey-server\\2.36\\jersey-server-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.containers",
+                    "name": "jersey-container-servlet",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-container-servlet",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet\\2.36\\jersey-container-servlet-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet\\2.36\\jersey-container-servlet-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.containers",
+                    "name": "jersey-container-servlet-core",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-container-servlet-core",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet-core\\2.36\\jersey-container-servlet-core-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-container-servlet-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\containers\\jersey-container-servlet-core\\2.36\\jersey-container-servlet-core-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.inject",
+                    "name": "jersey-hk2",
+                    "version": "2.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-hk2",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\inject\\jersey-hk2\\2.36\\jersey-hk2-2.36.jar"
+                        },
+                        {
+                            "name": "jersey-hk2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\jersey\\inject\\jersey-hk2\\2.36\\jersey-hk2-2.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-all",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-all",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-all\\4.1.74.Final\\netty-all-4.1.74.Final.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.clearspring.analytics",
+                    "name": "stream",
+                    "version": "2.9.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "stream",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.9.6\\stream-2.9.6.jar"
+                        },
+                        {
+                            "name": "stream",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\clearspring\\analytics\\stream\\2.9.6\\stream-2.9.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.dropwizard.metrics",
+                    "name": "metrics-core",
+                    "version": "4.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-core",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-core\\4.2.7\\metrics-core-4.2.7.jar"
+                        },
+                        {
+                            "name": "metrics-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-core\\4.2.7\\metrics-core-4.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.dropwizard.metrics",
+                    "name": "metrics-jvm",
+                    "version": "4.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-jvm",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jvm\\4.2.7\\metrics-jvm-4.2.7.jar"
+                        },
+                        {
+                            "name": "metrics-jvm",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jvm\\4.2.7\\metrics-jvm-4.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.dropwizard.metrics",
+                    "name": "metrics-json",
+                    "version": "4.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-json",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-json\\4.2.7\\metrics-json-4.2.7.jar"
+                        },
+                        {
+                            "name": "metrics-json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-json\\4.2.7\\metrics-json-4.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.dropwizard.metrics",
+                    "name": "metrics-graphite",
+                    "version": "4.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-graphite",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-graphite\\4.2.7\\metrics-graphite-4.2.7.jar"
+                        },
+                        {
+                            "name": "metrics-graphite",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-graphite\\4.2.7\\metrics-graphite-4.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.dropwizard.metrics",
+                    "name": "metrics-jmx",
+                    "version": "4.2.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metrics-jmx",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jmx\\4.2.7\\metrics-jmx-4.2.7.jar"
+                        },
+                        {
+                            "name": "metrics-jmx",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\dropwizard\\metrics\\metrics-jmx\\4.2.7\\metrics-jmx-4.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.13.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.13.4.2\\jackson-databind-2.13.4.2.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.13.4.2\\jackson-databind-2.13.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.13",
+                    "version": "2.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.13.4\\jackson-module-scala_2.13-2.13.4.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.13.4\\jackson-module-scala_2.13-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.ivy",
+                    "name": "ivy",
+                    "version": "2.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ivy",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ivy\\ivy\\2.5.1\\ivy-2.5.1.jar"
+                        },
+                        {
+                            "name": "ivy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ivy\\ivy\\2.5.1\\ivy-2.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "oro",
+                    "name": "oro",
+                    "version": "2.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "oro",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\oro\\oro\\2.0.8\\oro-2.0.8.jar"
+                        },
+                        {
+                            "name": "oro",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\oro\\oro\\2.0.8\\oro-2.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.razorvine",
+                    "name": "pickle",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pickle",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\razorvine\\pickle\\1.2\\pickle-1.2.jar"
+                        },
+                        {
+                            "name": "pickle",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\razorvine\\pickle\\1.2\\pickle-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.py4j",
+                    "name": "py4j",
+                    "version": "0.10.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "py4j",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\py4j\\py4j\\0.10.9.5\\py4j-0.10.9.5.jar"
+                        },
+                        {
+                            "name": "py4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\py4j\\py4j\\0.10.9.5\\py4j-0.10.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.spark",
+                    "name": "spark-tags_2.13",
+                    "version": "3.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-tags_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-tags_2.13\\3.3.2\\spark-tags_2.13-3.3.2.jar"
+                        },
+                        {
+                            "name": "spark-tags_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\spark\\spark-tags_2.13\\3.3.2\\spark-tags_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-crypto",
+                    "version": "1.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-crypto",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-crypto\\1.1.0\\commons-crypto-1.1.0.jar"
+                        },
+                        {
+                            "name": "commons-crypto",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-crypto\\1.1.0\\commons-crypto-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.spark-project.spark",
+                    "name": "unused",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unused",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\spark-project\\spark\\unused\\1.0.0\\unused-1.0.0.jar"
+                        },
+                        {
+                            "name": "unused",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\spark-project\\spark\\unused\\1.0.0\\unused-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.13.4\\jackson-core-2.13.4.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.13.4\\jackson-core-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.21",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.21\\commons-compress-1.21.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.21\\commons-compress-1.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro-ipc",
+                    "version": "1.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "avro-ipc",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-ipc\\1.11.0\\avro-ipc-1.11.0.jar"
+                        },
+                        {
+                            "name": "avro-ipc",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\avro\\avro-ipc\\1.11.0\\avro-ipc-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware",
+                    "name": "kryo-shaded",
+                    "version": "4.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kryo-shaded",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\kryo-shaded\\4.0.2\\kryo-shaded-4.0.2.jar"
+                        },
+                        {
+                            "name": "kryo-shaded",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\kryo-shaded\\4.0.2\\kryo-shaded-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.leveldbjni",
+                    "name": "leveldbjni-all",
+                    "version": "1.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "leveldbjni-all",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\leveldbjni\\leveldbjni-all\\1.8\\leveldbjni-all-1.8.jar"
+                        },
+                        {
+                            "name": "leveldbjni-all",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\leveldbjni\\leveldbjni-all\\1.8\\leveldbjni-all-1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.13.4\\jackson-annotations-2.13.4.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.13.4\\jackson-annotations-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.rocksdb",
+                    "name": "rocksdbjni",
+                    "version": "6.20.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "rocksdbjni",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\rocksdb\\rocksdbjni\\6.20.3\\rocksdbjni-6.20.3.jar"
+                        },
+                        {
+                            "name": "rocksdbjni",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\rocksdb\\rocksdbjni\\6.20.3\\rocksdbjni-6.20.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.crypto.tink",
+                    "name": "tink",
+                    "version": "1.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tink",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\crypto\\tink\\tink\\1.6.1\\tink-1.6.1.jar"
+                        },
+                        {
+                            "name": "tink",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\crypto\\tink\\tink\\1.6.1\\tink-1.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-framework",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-framework",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-framework\\2.13.0\\curator-framework-2.13.0.jar"
+                        },
+                        {
+                            "name": "curator-framework",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-framework\\2.13.0\\curator-framework-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-lang",
+                    "name": "commons-lang",
+                    "version": "2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-lang\\commons-lang\\2.6\\commons-lang-2.6.jar"
+                        },
+                        {
+                            "name": "commons-lang",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-lang\\commons-lang\\2.6\\commons-lang-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.zookeeper",
+                    "name": "zookeeper-jute",
+                    "version": "3.6.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zookeeper-jute",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper-jute\\3.6.2\\zookeeper-jute-3.6.2.jar"
+                        },
+                        {
+                            "name": "zookeeper-jute",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\zookeeper\\zookeeper-jute\\3.6.2\\zookeeper-jute-3.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.yetus",
+                    "name": "audience-annotations",
+                    "version": "0.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "audience-annotations",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\yetus\\audience-annotations\\0.5.0\\audience-annotations-0.5.0.jar"
+                        },
+                        {
+                            "name": "audience-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\yetus\\audience-annotations\\0.5.0\\audience-annotations-0.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.roaringbitmap",
+                    "name": "shims",
+                    "version": "0.9.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shims",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\shims\\0.9.25\\shims-0.9.25.jar"
+                        },
+                        {
+                            "name": "shims",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\roaringbitmap\\shims\\0.9.25\\shims-0.9.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-core_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-core_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.7.0-M11\\json4s-core_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.7.0-M11\\json4s-core_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.ws.rs",
+                    "name": "jakarta.ws.rs-api",
+                    "version": "2.1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\ws\\rs\\jakarta.ws.rs-api\\2.1.6\\jakarta.ws.rs-api-2.1.6.jar"
+                        },
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\ws\\rs\\jakarta.ws.rs-api\\2.1.6\\jakarta.ws.rs-api-2.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "jakarta.inject",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\jakarta.inject\\2.6.1\\jakarta.inject-2.6.1.jar"
+                        },
+                        {
+                            "name": "jakarta.inject",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\jakarta.inject\\2.6.1\\jakarta.inject-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "1.3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\annotation\\jakarta.annotation-api\\1.3.5\\jakarta.annotation-api-1.3.5.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\annotation\\jakarta.annotation-api\\1.3.5\\jakarta.annotation-api-1.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "osgi-resource-locator",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "osgi-resource-locator",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\osgi-resource-locator\\1.0.3\\osgi-resource-locator-1.0.3.jar"
+                        },
+                        {
+                            "name": "osgi-resource-locator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\osgi-resource-locator\\1.0.3\\osgi-resource-locator-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.validation",
+                    "name": "jakarta.validation-api",
+                    "version": "2.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.validation-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\validation\\jakarta.validation-api\\2.0.2\\jakarta.validation-api-2.0.2.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jakarta\\validation\\jakarta.validation-api\\2.0.2\\jakarta.validation-api-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-locator",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hk2-locator",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-locator\\2.6.1\\hk2-locator-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-locator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-locator\\2.6.1\\hk2-locator-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.25.0-GA",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\javassist\\javassist\\3.25.0-GA\\javassist-3.25.0-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\javassist\\javassist\\3.25.0-GA\\javassist-3.25.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.74.Final\\netty-buffer-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.74.Final\\netty-buffer-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.74.Final\\netty-codec-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.74.Final\\netty-codec-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.74.Final\\netty-common-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.74.Final\\netty-common-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.74.Final\\netty-handler-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.74.Final\\netty-handler-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-classes",
+                    "version": "2.0.48.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-classes",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.48.Final\\netty-tcnative-classes-2.0.48.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-classes",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.48.Final\\netty-tcnative-classes-2.0.48.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.74.Final\\netty-resolver-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.74.Final\\netty-resolver-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.74.Final\\netty-transport-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.74.Final\\netty-transport-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.74.Final\\netty-transport-classes-epoll-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.74.Final\\netty-transport-classes-epoll-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.74.Final\\netty-transport-native-unix-common-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.74.Final\\netty-transport-native-unix-common-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-kqueue",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-kqueue\\4.1.74.Final\\netty-transport-classes-kqueue-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-kqueue\\4.1.74.Final\\netty-transport-classes-kqueue-4.1.74.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tukaani",
+                    "name": "xz",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xz",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tukaani\\xz\\1.9\\xz-1.9.jar"
+                        },
+                        {
+                            "name": "xz",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\tukaani\\xz\\1.9\\xz-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.esotericsoftware",
+                    "name": "minlog",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "minlog",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\minlog\\1.3.0\\minlog-1.3.0.jar"
+                        },
+                        {
+                            "name": "minlog",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\esotericsoftware\\minlog\\1.3.0\\minlog-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "2.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\objenesis\\objenesis\\2.5.1\\objenesis-2.5.1.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\objenesis\\objenesis\\2.5.1\\objenesis-2.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\protobuf\\protobuf-java\\3.14.0\\protobuf-java-3.14.0.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\protobuf\\protobuf-java\\3.14.0\\protobuf-java-3.14.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.8.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.6\\gson-2.8.6.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.6\\gson-2.8.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-client",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-client",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-client\\2.13.0\\curator-client-2.13.0.jar"
+                        },
+                        {
+                            "name": "curator-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\curator\\curator-client\\2.13.0\\curator-client-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ast_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ast_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.7.0-M11\\json4s-ast_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.7.0-M11\\json4s-ast_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-scalap_2.13",
+                    "version": "3.7.0-M11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.7.0-M11\\json4s-scalap_2.13-3.7.0-M11.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.7.0-M11\\json4s-scalap_2.13-3.7.0-M11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "aopalliance-repackaged",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance-repackaged",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\aopalliance-repackaged\\2.6.1\\aopalliance-repackaged-2.6.1.jar"
+                        },
+                        {
+                            "name": "aopalliance-repackaged",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\external\\aopalliance-repackaged\\2.6.1\\aopalliance-repackaged-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-api",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hk2-api",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-api\\2.6.1\\hk2-api-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-api\\2.6.1\\hk2-api-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "hk2-utils",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hk2-utils",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-utils\\2.6.1\\hk2-utils-2.6.1.jar"
+                        },
+                        {
+                            "name": "hk2-utils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\glassfish\\hk2\\hk2-utils\\2.6.1\\hk2-utils-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "16.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\guava\\16.0.1\\guava-16.0.1.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\guava\\16.0.1\\guava-16.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-epoll",
+                    "version": "4.1.74.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "linux-x86_64",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.74.Final\\netty-transport-native-epoll-4.1.74.Final-linux-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.8",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\crdne\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

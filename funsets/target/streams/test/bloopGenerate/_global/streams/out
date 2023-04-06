@@ -1,0 +1,4 @@
+[debug] [funsets-test] Classpath dependencies List()
+[debug] [funsets-test] Dependencies from configurations List(funsets)
+[debug] Bloop wrote the configuration of project 'funsets-test' to 'C:\DeV\funsets\.bloop\funsets-test.json'
+[success] Generated .bloop\funsets-test.json

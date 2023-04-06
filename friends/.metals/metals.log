@@ -1,0 +1,217 @@
+2023.04.03 19:39:09 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\ScalaProjects\friends' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.03 19:39:10 INFO  time: initialize in 0.65s
+2023.04.03 19:39:12 WARN  Build server is not auto-connectable.
+2023.04.03 19:39:14 INFO  running 'C:\Java\jdk-11.0.18\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\crdne\AppData\Local\Temp\metals3894528107122846074\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.03 19:39:15 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.04.03 19:39:18 INFO  [info] loading settings for project friends-build-build from metals.sbt ...
+2023.04.03 19:39:18 INFO  [info] loading project definition from C:\DeV\ScalaProjects\friends\project\project
+2023.04.03 19:39:21 INFO  [info] loading settings for project friends-build from metals.sbt ...
+2023.04.03 19:39:21 INFO  [info] loading project definition from C:\DeV\ScalaProjects\friends\project
+2023.04.03 19:39:23 INFO  [success] Generated .bloop\friends-build.json
+2023.04.03 19:39:23 INFO  [success] Total time: 2 s, completed 03-Apr-2023, 7:39:23 PM
+2023.04.03 19:39:25 INFO  [info] loading settings for project friends from build.sbt ...
+2023.04.03 19:39:25 INFO  [info] set current project to MovieSimilarities1M (in build file:/C:/DeV/ScalaProjects/friends/)
+2023.04.03 19:39:27 INFO  [success] Generated .bloop\friends.json
+2023.04.03 19:39:27 INFO  [success] Generated .bloop\friends-test.json
+2023.04.03 19:39:27 INFO  [success] Total time: 3 s, completed 03-Apr-2023, 7:39:27 PM
+2023.04.03 19:39:28 INFO  time: ran 'sbt bloopInstall' in 13s
+2023.04.03 19:39:28 INFO  Attempting to connect to the build server...
+2023.04.03 19:39:28 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 19:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 19:39:28 INFO  Attempting to connect to the build server...
+2023.04.03 19:39:28 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 19:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 19:39:28 INFO  time: Connected to build server in 0.23s
+2023.04.03 19:39:28 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.03 19:39:38 INFO  time: indexed workspace in 10s
+2023.04.03 19:41:01 INFO  compiling friends (1 scala source)
+2023.04.03 19:41:04 INFO  time: compiled friends in 3.44s
+2023.04.03 19:41:25 INFO  compiling friends (1 scala source)
+2023.04.03 19:41:25 INFO  time: compiled friends in 0.98s
+2023.04.03 19:41:37 INFO  compiling friends (1 scala source)
+2023.04.03 19:41:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:41:41 INFO  time: compiled friends in 3.69s
+2023.04.03 19:43:31 INFO  time: code lens generation in 3.23s
+Apr 03, 2023 7:43:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+Apr 03, 2023 7:43:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2FC%3A%2FUsers%2Fcrdne%2FAppData%2FLocal%2FCoursier%2Fcache%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.17%2Fscala-library-2.12.17-sources.jar%21%2Fscala%2Fcollection%2Fgeneric%2FGenericCompanion.scala:20: error: ; expected but package found
+package collection
+^
+jar%3Afile%3A%2F%2F%2FC%3A%2FUsers%2Fcrdne%2FAppData%2FLocal%2FCoursier%2Fcache%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.17%2Fscala-library-2.12.17-sources.jar%21%2Fscala%2Fcollection%2Fgeneric%2FGenericCompanion.scala:20: error: ; expected but package found
+package collection
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:420)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:424)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.04.03 19:44:00 INFO  running 'C:\Java\jdk-11.0.18\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\crdne\AppData\Local\Temp\metals6934826220306951745\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.03 19:44:04 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.04.03 19:44:04 INFO  [info] loading settings for project friends-build-build from metals.sbt ...
+2023.04.03 19:44:07 INFO  [info] loading project definition from C:\DeV\ScalaProjects\friends\project\project
+2023.04.03 19:44:08 INFO  [info] loading settings for project friends-build from metals.sbt ...
+2023.04.03 19:44:08 INFO  [info] loading project definition from C:\DeV\ScalaProjects\friends\project
+2023.04.03 19:44:12 INFO  [success] Generated .bloop\friends-build.json
+2023.04.03 19:44:12 INFO  [success] Total time: 4 s, completed 03-Apr-2023, 7:44:12 PM
+2023.04.03 19:44:14 INFO  [info] loading settings for project friends from build.sbt ...
+2023.04.03 19:44:14 INFO  [info] set current project to friends (in build file:/C:/DeV/ScalaProjects/friends/)
+2023.04.03 19:44:18 INFO  [success] Generated .bloop\friends.json
+2023.04.03 19:44:18 INFO  [success] Generated .bloop\friends-test.json
+2023.04.03 19:44:18 INFO  [success] Total time: 4 s, completed 03-Apr-2023, 7:44:18 PM
+2023.04.03 19:44:18 INFO  time: ran 'sbt bloopInstall' in 17s
+2023.04.03 19:44:18 INFO  Disconnecting from Bloop session...
+2023.04.03 19:44:18 INFO  Shut down connection with build server.
+2023.04.03 19:44:18 INFO  Shut down connection with build server.
+2023.04.03 19:44:18 INFO  Attempting to connect to the build server...
+2023.04.03 19:44:18 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 19:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 19:44:18 INFO  Attempting to connect to the build server...
+2023.04.03 19:44:18 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 19:44:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 19:44:18 INFO  time: Connected to build server in 95ms
+2023.04.03 19:44:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.03 19:44:21 INFO  time: indexed workspace in 2.73s
+2023.04.03 19:44:23 INFO  skipping build import with status 'Installed'
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.04.03 19:51:00 INFO  compiling friends (1 scala source)
+2023.04.03 19:51:00 INFO  time: compiled friends in 0.34s
+2023.04.03 19:51:05 INFO  compiling friends (1 scala source)
+2023.04.03 19:51:05 INFO  time: compiled friends in 0.35s
+2023.04.03 19:51:08 INFO  compiling friends (1 scala source)
+2023.04.03 19:51:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:51:12 INFO  time: compiled friends in 3.9s
+Apr 03, 2023 7:51:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 347
+Apr 03, 2023 7:51:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 348
+2023.04.03 19:52:03 INFO  compiling friends (1 scala source)
+2023.04.03 19:52:03 INFO  time: compiled friends in 0.72s
+2023.04.03 19:52:08 INFO  compiling friends (1 scala source)
+2023.04.03 19:52:08 INFO  time: compiled friends in 0.58s
+2023.04.03 19:53:01 INFO  compiling friends (1 scala source)
+2023.04.03 19:53:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:53:03 INFO  time: compiled friends in 2.05s
+2023.04.03 19:53:09 INFO  compiling friends (1 scala source)
+2023.04.03 19:53:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:53:10 INFO  time: compiled friends in 1.81s
+Apr 03, 2023 7:54:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 817
+Apr 03, 2023 7:54:16 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1602, count -33, length 2099
+Apr 03, 2023 7:54:16 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1603, count -33, length 2100
+Apr 03, 2023 7:54:17 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1603, count -33, length 2100
+2023.04.03 19:54:25 INFO  compiling friends (1 scala source)
+2023.04.03 19:54:25 INFO  time: compiled friends in 0.71s
+2023.04.03 19:54:33 INFO  compiling friends (1 scala source)
+2023.04.03 19:54:33 INFO  time: compiled friends in 0.57s
+Apr 03, 2023 7:55:11 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1867, count -68, length 2122
+Apr 03, 2023 7:55:11 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1868, count -68, length 2123
+2023.04.03 19:55:25 INFO  compiling friends (1 scala source)
+2023.04.03 19:55:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:55:27 INFO  time: compiled friends in 1.99s
+2023.04.03 19:56:06 INFO  compiling friends (1 scala source)
+2023.04.03 19:56:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:56:07 INFO  time: compiled friends in 1.76s
+2023.04.03 19:57:41 INFO  compiling friends (1 scala source)
+2023.04.03 19:57:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:57:43 INFO  time: compiled friends in 1.79s
+Apr 03, 2023 7:58:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1266
+2023.04.03 19:58:23 INFO  compiling friends (1 scala source)
+2023.04.03 19:58:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:58:25 INFO  time: compiled friends in 1.77s
+2023.04.03 19:59:04 INFO  compiling friends (1 scala source)
+2023.04.03 19:59:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:59:06 INFO  time: compiled friends in 2.32s
+2023.04.03 19:59:09 INFO  compiling friends (1 scala source)
+2023.04.03 19:59:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:59:11 INFO  time: compiled friends in 1.64s
+2023.04.03 19:59:39 INFO  compiling friends (1 scala source)
+2023.04.03 19:59:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 19:59:41 INFO  time: compiled friends in 1.62s
+2023.04.03 20:02:16 INFO  compiling friends (1 scala source)
+2023.04.03 20:02:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.04.03 20:02:18 INFO  time: compiled friends in 2.31s
+2023.04.03 20:25:23 INFO  Shutting down server
+2023.04.03 20:25:23 INFO  shutting down Metals
+2023.04.03 20:25:23 INFO  Shut down connection with build server.
+2023.04.03 20:25:23 INFO  Shut down connection with build server.
+2023.04.03 20:25:23 INFO  Exiting server
+2023.04.03 20:30:10 INFO  Started: Metals version 0.11.11 in workspace 'C:\DeV\ScalaProjects\friends' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/crdne/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.03 20:30:11 INFO  time: initialize in 0.86s
+2023.04.03 20:30:14 INFO  Attempting to connect to the build server...
+2023.04.03 20:30:14 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 20:30:15 INFO  skipping build import with status 'Installed'
+2023.04.03 20:30:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 20:30:14 INFO  Attempting to connect to the build server...
+2023.04.03 20:30:14 INFO  Bloop uses C:\Java\jdk-11.0.18 defined at C:\Users\crdne\.bloop\bloop.json
+2023.04.03 20:30:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\DeV\ScalaProjects\friends\project\.metals\bsp.trace.json or C:\Users\crdne\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.03 20:30:14 INFO  time: Connected to build server in 0.48s
+2023.04.03 20:30:14 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.03 20:30:18 INFO  no build target found for C:\DeV\ScalaProjects\friends\src\main\scala\FriendsByAge.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.03 20:30:18 INFO  time: code lens generation in 3.82s
+2023.04.03 20:30:22 INFO  time: indexed workspace in 3.92s
+2023.04.03 20:39:01 INFO  Shutting down server
+2023.04.03 20:39:01 INFO  shutting down Metals
+2023.04.03 20:39:01 INFO  Shut down connection with build server.
+2023.04.03 20:39:01 INFO  Shut down connection with build server.
+2023.04.03 20:39:01 INFO  Exiting server
