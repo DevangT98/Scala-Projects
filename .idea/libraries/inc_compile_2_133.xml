@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="inc_compile_2.133">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/oosets/target/scala-2.13/zinc/inc_compile_2.13.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

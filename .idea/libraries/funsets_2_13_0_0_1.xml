@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="funsets_2.13-0.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/funsets/target/scala-2.13/funsets_2.13-0.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
