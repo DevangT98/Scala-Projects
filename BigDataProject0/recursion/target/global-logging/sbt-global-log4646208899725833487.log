@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 11.0.18)
+[debug] Load.defaultLoad until apply took 190.0111ms
+[debug]                 Load.loadUnit: plugins took 230.9398ms
+[debug]                 Load.loadUnit: defsScala took 0.5466ms
+[debug] [Loading] Scanning directory C:\DeV\recursion\project\project
+[debug]                   Load.loadUnit: mkEval took 16.313ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\DeV\recursion\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 47.5979 ms
+[info] loading settings for project recursion-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(recursion-build-build) took 119.8064ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id recursion-build-build, base: C:\DeV\recursion\project\project, plugins: List(<none>))) took 258.3846ms
+[debug] [Loading] Done in C:\DeV\recursion\project\project, returning: (recursion-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1679.2969ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 14.0517ms
+[debug]               Load.loadUnit(file:/C:/DeV/recursion/project/project/, ...) took 1938.1671ms
+[debug]             Load.apply: load took 2293.9422ms
+[debug]             Load.apply: resolveProjects took 21.7742ms
+[debug]             Load.apply: finalTransforms took 181.892ms
+[debug]             Load.apply: config.delegates took 19.7821ms
+[debug]             Load.apply: Def.make(settings)... took 948.0696ms
+[debug]             Load.apply: structureIndex took 201.9173ms
+[debug]             Load.apply: mkStreams took 4.4002ms
+[info] loading project definition from C:\DeV\recursion\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 9719.4248ms
+[debug]           Load.loadUnit: defsScala took 0.0066ms
+[debug] [Loading] Scanning directory C:\DeV\recursion\project
+[debug]             Load.loadUnit: mkEval took 1.6852ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\DeV\recursion\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.2445 ms
+[info] loading settings for project recursion-build from metals.sbt ...
+[debug]               Load.resolveProject(recursion-build) took 50.1954ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id recursion-build, base: C:\DeV\recursion\project, plugins: List(<none>))) took 56.2287ms
+[debug] [Loading] Done in C:\DeV\recursion\project, returning: (recursion-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 129.7107ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.1988ms
+[debug]         Load.loadUnit(file:/C:/DeV/recursion/project/, ...) took 9858.3548ms
+[debug]       Load.apply: load took 9866.4824ms
+[debug]       Load.apply: resolveProjects took 0.2172ms
+[debug]       Load.apply: finalTransforms took 44.6959ms
+[debug]       Load.apply: config.delegates took 0.6234ms
+[debug]       Load.apply: Def.make(settings)... took 177.2963ms
+[debug]       Load.apply: structureIndex took 59.7606ms
+[debug]       Load.apply: mkStreams took 0.0048ms
+[info] loading project definition from C:\DeV\recursion\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop\recursion-build.json

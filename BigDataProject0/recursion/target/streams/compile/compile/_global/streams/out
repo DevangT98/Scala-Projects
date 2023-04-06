@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\BigDataProject0\recursion\src\main\scala\recursion\Main.scala:53:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(0)[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m  countChangeAux(money,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":3})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/DeV/ScalaProjects/BigDataProject0/recursion/src/test/scala/recursion/CountChangeSuite.scala"},"position":{"line":25,"character":7}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     assert(countChange(10,List(1,5,10,25)) === 4)[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"7","parents":[]},"eventTime":1679889757580,"message":"Compiling recursion","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"7","parents":[]},"eventTime":1679889757616,"message":"Compiled recursion","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Compile"},"errors":0,"warnings":0,"time":36}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"8","parents":[]},"eventTime":1679889757640,"message":"Compiling recursion-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\DeV\ScalaProjects\BigDataProject0\recursion\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\DeV\\ScalaProjects\\BigDataProject0\\recursion\\target\\scala-2.13\\test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758436,"message":"Compiling recursion-test (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758436,"message":"Compiling recursion-test (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758520,"message":"Compiling recursion-test (30%)","total":26,"progress":30,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758520,"message":"Compiling recursion-test (30%)","total":26,"progress":30,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758592,"message":"Compiling recursion-test (50%)","total":26,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758592,"message":"Compiling recursion-test (50%)","total":26,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758792,"message":"Compiling recursion-test (65%)","total":26,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758796,"message":"Compiling recursion-test (65%)","total":26,"progress":65,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758804,"message":"Compiling recursion-test (80%)","total":26,"progress":80,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758804,"message":"Compiling recursion-test (80%)","total":26,"progress":80,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758892,"message":"Compiling recursion-test (100%)","total":26,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758892,"message":"Compiling recursion-test (100%)","total":26,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"8","parents":[]},"eventTime":1679889758900,"message":"Compiled recursion-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/DeV/ScalaProjects/BigDataProject0/recursion/#recursion/Test"},"errors":0,"warnings":0,"time":1260}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 27-Mar-2023, 12:02:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\DeV\ScalaProjects\BigDataProject0\recursion\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 27-Mar-2023, 12:02:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol countChange[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol assert[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol countChange[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/DeV/ScalaProjects/BigDataProject0/recursion/src/test/scala/recursion/CountChangeSuite.scala"},"position":{"line":20,"character":14}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   test("countChange: unsorted CHF") {[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":5})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/DeV/ScalaProjects/BigDataProject0/recursion/src/test/scala/recursion/CountChangeSuite.scala"},"position":{"line":21,"character":14}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     assert(countChange(300,List(500,5,50,100,20,200,10)) === 1022)[0m
