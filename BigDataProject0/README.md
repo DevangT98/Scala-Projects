@@ -13,6 +13,10 @@ If the number of open parentheses encountered so far is negative, the function i
 
 Finally, the `balance` function calls the `balance_aux` function with the input string converted to a list of characters and the `c` parameter initialized to zero.
 
+
+# Exercise 2: Coin Change 
+
+
 ### `countChange(money: Int, coins: List[Int]): Int`
 
 The `countChange` function takes an amount of money `money` and a list of coin denominations `coins`, and returns the number of ways in which the amount of money can be made up using the coins in the list. For example, if `money` is 4 and `coins` is `List(1, 2)`, the function should return 3 because there are three ways to make up 4 using the coins 1 and 2: (1, 1, 1, 1), (1, 1, 2), and (2, 2).
