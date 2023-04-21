@@ -1,0 +1,4 @@
+[debug] [wikipedia-test] Classpath dependencies List()
+[debug] [wikipedia-test] Dependencies from configurations List(wikipedia)
+[debug] Bloop wrote the configuration of project 'wikipedia-test' to 'C:\DeV\ScalaProjects\wikipedia\.bloop\wikipedia-test.json'
+[success] Generated .bloop\wikipedia-test.json

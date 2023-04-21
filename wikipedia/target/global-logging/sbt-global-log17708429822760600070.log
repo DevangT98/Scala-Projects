@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(3b7bb6c5-916a-4612-90b2-255c7369f87b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\DeV\ScalaProjects\wikipedia\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 5, Failed 0, Errors 0, Passed 5[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 25 s, completed 20-Apr-2023, 7:18:49 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-8b470024f25907167797. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-8b470024f25907167797_lock, error 5[0m

@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:4:30: not found: value munit[0m
+[0m[[0m[31merror[0m] [0m[0mclass WikipediaSuite extends munit.FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:90:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("'occurrencesOfLang' should work for (specific) RDD with one element") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:98:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("'rankLangs' should work for RDD with two elements") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:108:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("'makeIndex' creates a simple index with two entries") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:123:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("'rankLangsUsingIndex' should work for a simple RDD with three elements") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\DeV\ScalaProjects\wikipedia\src\test\scala\WikipediaSuite.scala:139:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("'rankLangsReduceByKey' should work for a simple RDD with four elements") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
